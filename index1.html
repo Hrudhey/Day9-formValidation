@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormV</title>
+
+</head>
+<body>
+    <form action="success.html">
+        <label for="Username">Username</label><br>
+        <input type="text" placeholder="Enter E-mail" id="email">
+        <span id="err1"></span>
+        <br></br>
+        <label for="Password">Password</label><br>
+        <input type="password" id="pwd">
+        <span id="err2"></span>
+        <br></br>
+        <input type="submit" value="Login" id="btn" onclick="return validate()">
+    </form>
+    <!-- <script src="validation.js"></script> -->
+    <script src="emailvalidation.js"></script>
+</body>
+</html>
